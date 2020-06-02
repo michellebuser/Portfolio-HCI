@@ -12,9 +12,15 @@ header {
 h1 {
 	color: #9FB8AD;
 	font-family:'Questa Grande';
+	font-size: 3em;
 }
 
-h2 {
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
 	color: #9FB8AD;
 }
 

@@ -1,0 +1,36 @@
+body {
+	margin: 0 auto;
+	font-family: 'Proxima Nova';
+}
+
+header {
+	height: 150px;
+	padding: 10px;
+	text-align: center;         
+}
+
+h1 {
+	color: #9FB8AD;
+	font-family:'Questa Grande';
+	font-size: 3em;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+
+button {
+	font-family: 'Proxima Nova';
+	background-color: transparent;
+	border-radius: 5px;
+	border-color: transparent;
+	box-shadow: 1px 1px 10px #9FB8AD;
+	height: 40px;
+	width: 80px;
+}
+
+button:hover{
+	background-color: #9FB8AD;
+}

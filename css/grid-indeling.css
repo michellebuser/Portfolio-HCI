@@ -1,0 +1,49 @@
+@media only screen and (min-width: 1000px) and (max-width: 1920px) {
+	.grid-container {
+		display: grid;
+		min-height: 400px;
+		grid-gap: 10px;
+		margin: 15px;
+		grid-template-areas: 
+				"title1 title1 title1"
+				"section1 section2 section3"
+				"title2 title2 title2"
+				"section5 section6 section7"
+
+				
+	}	
+
+}
+
+
+.box0{
+	grid-area: title1;
+}
+
+.box1 {
+	grid-area: section1;
+}
+
+.box2 {
+	grid-area: section2;
+}
+
+.box3 {
+	grid-area: section3;
+}
+
+.box4{
+	grid-area: title2;
+}
+
+.box5 {
+	grid-area: section5;
+}
+
+.box6 {
+	grid-area: section6;
+}
+
+.box7 {
+	grid-area: section7;
+}

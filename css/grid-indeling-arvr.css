@@ -1,0 +1,46 @@
+@media only screen and (min-width: 1000px) and (max-width: 1900px) {
+	.grid-container {
+		display: grid;
+		min-height: 1800px;
+		grid-gap: 10px;
+		grid-template-areas: 
+				"intro1 intro1 intro1"
+				"image1 image2 image3"
+				"video1 video1 video1"
+				"intro2 intro2 intro2"
+				"link link link"
+				
+
+				
+	}	
+
+}
+
+
+.box1{
+	grid-area: intro1;
+}
+
+.box2 {
+	grid-area: image1;
+}
+
+.box3 {
+	grid-area: image2;
+}
+
+.box4 {
+	grid-area: image3;
+}
+
+.box5 {
+	grid-area: video1;
+}
+
+.box6 {
+	grid-area: intro2;
+}
+
+.box7{
+	grid-area: link;
+}
